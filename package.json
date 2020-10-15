@@ -1,5 +1,5 @@
 {
-  "name": "pm2-deploy",
+  "name": "pm2t-deploy",
   "version": "1.0.2",
   "description": "Deployment system for PM2",
   "main": "deploy.js",

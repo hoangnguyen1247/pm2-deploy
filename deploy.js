@@ -13,11 +13,12 @@ var schema = {
     user: { type: 'string', minLength: 1 },
     host: { type: ['string', 'array'] },
     repo: { type: 'string' },
-    path: { type: 'string' },
     ref: { type: 'string' },
+    path: { type: 'string' },
+    appFolderName: { type: 'string' },
     fetch: { type: 'string' },
   },
-  required: ['host', 'repo', 'path', 'ref'],
+  required: ['host', 'repo', 'ref', 'path', 'appFolderName'],
 };
 
 /**
